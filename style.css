@@ -1,0 +1,63 @@
+
+nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+    font-family: "Switzer" !important;}
+nav img{
+    width: 200px;
+    margin-left: 15%;
+}
+#menu{
+    margin-left: 5%;
+}
+.search{
+    position: relative;
+    margin-left: 5%;
+}
+.search .fa-solid{
+    position: absolute;
+    color: rgb(208, 202, 202);
+    right: 10px;
+    top: 10px;
+}
+input[type=text] {
+    border-radius: 5px;
+    height: 40px;
+}
+.cart{
+    display: flex;
+    margin-left: 10%;
+}
+.cart div{
+    padding: 0 10px;
+}
+.main{
+    background-color: #191919;
+    margin-top: 5%;
+}
+#demo1 img{
+    width: 100px;
+    vertical-align: top;
+    margin: 0 5px;
+}
+#demo1 .carousel-item{
+    padding: 20px 0;
+}
+#card1{
+    background-image: url(images/neu_offers_desk_tkq4lf.webp);
+    width: 100%;
+    height: auto;
+}
+#card2{
+    background-image:url(images/HP_2Split_MFYMP_Brands_HDFC_ICIC_30May2024_kzbaou.webp);
+}
