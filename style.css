@@ -45,6 +45,9 @@ input[type=text] {
     background-color: #191919;
     margin-top: 5%;
 }
+.carousel-item img{
+    width: 100%;
+}
 #demo1 img{
     width: 100px;
     vertical-align: top;
@@ -53,11 +56,203 @@ input[type=text] {
 #demo1 .carousel-item{
     padding: 20px 0;
 }
-#card1{
-    background-image: url(images/neu_offers_desk_tkq4lf.webp);
-    width: 100%;
-    height: auto;
+#card{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
 }
-#card2{
-    background-image:url(images/HP_2Split_MFYMP_Brands_HDFC_ICIC_30May2024_kzbaou.webp);
+#card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.icici{
+    margin-top: 60px;
+}
+.main h2{
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+.icici img{
+    border-radius: 10px;
+    width: 100%;
+}
+.fav{
+    margin-top: 60px;
+}
+.fav div{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+}
+.fav img{
+    width: 100%;
+    border-radius: 10px;
+}
+.apple{
+    margin-top: 60px;
+}
+.apple div{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2%;
+}
+.apple img{
+    width: 100%;
+}
+.hot{
+    margin-top: 60px;
+}
+.hot div{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 1.5%;
+}
+.hot img{
+    border-radius: 10px;
+    width: 100%;
+}
+.deals{
+    margin-top: 60px;
+}
+.deals div{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+}
+.deals img{
+    width: 100%;
+    border-radius: 10px;
+}
+.zip{
+    margin-top: 60px;
+}
+.zip img{
+    width: 100%;
+    border-radius: 10px;
+}
+#demo3{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+.anim img{
+    position: absolute;
+    width: 32%;
+    top: 10%;
+    left: 7%;
+}
+.anime{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: white;
+}
+.an1s1{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.an1s2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 110%;
+    margin: 5% 0;
+}
+.anime a{
+    background-color: #12daa8;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 13px 27px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.bs5 h2{
+    padding-left: 12px;
+}
+.dealoftheday{
+    margin-top: 60px;
+}
+.dealoftheday img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.tata{
+    margin-top: 60px;
+}
+.exclusive{
+    margin-top: 60px;
+}
+.exclusive img{
+    width: 14%;
+}
+.croma{
+    margin-top: 60px;
+}
+#demo4 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.top{
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+#demo4 .row div{
+    height: 270px;
+}
+footer{
+    background-color: #1d1d1d;
+    color: white;
+    padding: 50px 0;
+}
+footer .container{
+    width: 75%;
+    display: flex;
+}
+footer p{
+    font-size: 16px;
+  line-height: .5;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+}
+footer ul{
+    list-style-type:none;
+    padding-left: 0;
+    margin-bottom: 0;
+    width: 33%;
+}
+footer ul li{
+    padding-left: 0;
+}
+footer ul li ul li i{
+    font-size: 20px;
+}
+footer ul li ul li{
+    padding-right: 35px;
+}
+footer ul li ul{
+    margin-bottom: 50px;
+}
+footer input[type=email]{
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+#email{
+    position: relative;
+}
+#email .fa-solid{
+    position: absolute;
+    left: 220px;
+    top: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
 }
