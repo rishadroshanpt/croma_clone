@@ -255,4 +255,53 @@ footer input[type=email]{
 footer a{
     color: white;
     text-decoration: none;
+    font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all .3s ease;
+}
+footer a:hover{
+    color: #12daa8;
+}
+#flex{
+    display: flex;
+    padding-left: 5%;
+}
+#flex ul{
+    width: 50%;
+}
+
+#flex ul li{
+    padding-bottom: 20px;
+}
+.mar{
+    border-right: 2px solid white;
+}
+@media screen and (max-width:900px){
+    footer .container{
+        display: inline;
+        text-align: center;
+    }
+    footer ul{
+        width: 100%;
+    }
+    .social{
+        margin-left: 37%;
+    }
+    #email .fa-solid{
+        left: 62%;
+    }
+    #flex{
+        display: inline;
+    }
+    #flex ul{
+        width: 100%;
+    }
+    
+    #flex ul li{
+        padding-bottom: 20px;
+    }
+    .mar{
+        border-right: none;
+    }
 }
