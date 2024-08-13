@@ -24,6 +24,9 @@ nav img{
     position: relative;
     margin-left: 5%;
 }
+.search i{
+    font-size: 20px;
+}
 .search .fa-solid{
     position: absolute;
     color: rgb(208, 202, 202);
@@ -33,6 +36,8 @@ nav img{
 input[type=text] {
     border-radius: 5px;
     height: 40px;
+    width: 450px;
+    font-size: 15px;
 }
 .cart{
     display: flex;
@@ -278,6 +283,46 @@ footer a:hover{
     border-right: 2px solid white;
 }
 @media screen and (max-width:900px){
+    nav .container{
+        align-items: start;
+        font-size: 8px;
+        margin: 0;
+    }
+    nav img{
+        width: 100px;
+        margin-left: 2%;
+    }
+    #menu{
+        margin-left: 2%;
+    }
+    .search{
+        position: relative;
+        margin-left: 2%;
+    }
+    .search .fa-solid{
+        position: absolute;
+        color: rgb(208, 202, 202);
+        right: 10px;
+        top: 5px;
+    }
+    .search i{
+        font-size: 10px;
+    }
+    input[type=text] {
+        border-radius: 3px;
+        height: 20px;
+        width: 150px;
+        font-size: 8px;
+    }
+    .cart{
+        display: flex;
+        justify-content: end;
+        width: 200px;
+        margin-left: 30%;
+    }
+    .main{
+        margin-top:5%;
+    }
     footer .container{
         display: inline;
         text-align: center;
@@ -286,7 +331,9 @@ footer a:hover{
         width: 100%;
     }
     .social{
-        margin-left: 37%;
+        width: 50%;
+        margin: auto;
+        justify-content: center;
     }
     #email .fa-solid{
         left: 62%;
