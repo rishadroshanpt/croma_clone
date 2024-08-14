@@ -14,7 +14,52 @@
         <nav>
             <div class="container">
                 <a href="index.html"><img src="images/Screenshot_2024-08-07_144821-removebg-preview.png" alt="" width="100%"></a>
-                <div id="menu"><i class="fa-solid fa-bars" style="font-size: 20px;"></i><span style="margin-left: 5px;">Menu</span></div>
+                <div id="menu">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars" style="font-size: 20px;"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <div id="first4">
+                                <a href=""><i class="fa-solid fa-crown"></i> Exclusive At Croma</a>
+                                <a href="#about"><i class="fa-solid fa-trophy"></i> Top Brands</a>
+                                <a href="#contact"><i class="fa-solid fa-store"></i> Croma Store Locator</a>
+                                <a href="" style="border: none;"><i class="fa-regular fa-credit-card"></i> Gift Cards</a>
+                            </div>
+                            <h6><b>Shop by category</b></h6>
+                            <a href="">Television & Accessories</a>
+                            <a href="">Home Appliances</a>
+                            <a href="">Phones & Wearables</a>
+                            <a href="">Computers & Tablets</a>
+                            <a href="">Kitchen Appliances</a>
+                            <a href="">Audio & Video</a>
+                            <a href="">Health & Fitness</a>
+                            <a href="">Grooming & Personal Care</a>
+                            <a href="">Cameras & Accessories</a>
+                            <a href="">Smart Devices</a>
+                            <a href="">Gaming</a>
+                            <a href="">Accessories</a>
+                            <a href="">ZipCare</a>
+                        </div>
+                      </div>
+                      
+                      <script>
+                      function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                      }
+                      
+                      window.onclick = function(event) {
+                        if (!event.target.matches('.dropbtn')) {
+                          var dropdowns = document.getElementsByClassName("dropdown-content");
+                          var i;
+                          for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                              openDropdown.classList.remove('show');
+                            }
+                          }
+                        }
+                      }
+                      </script>
+                    <span style="margin-left: 5px;">Menu</span></div>
                 <div class="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" name="" id="" placeholder="       What are you looking for ?" >
