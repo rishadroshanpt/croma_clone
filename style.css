@@ -112,7 +112,7 @@ input[type=text] {
     width: 100%;
 }
 #demo1 img{
-    width: 100px;
+    width: 95%;
     vertical-align: top;
     margin: 0 5px;
 }
@@ -269,7 +269,7 @@ input[type=text] {
     margin-top: 60px;
 }
 #demo4 img{
-    width: 270px;
+    width: 95%;
     border-radius: 10px;
     margin-left: 10px;
 }
